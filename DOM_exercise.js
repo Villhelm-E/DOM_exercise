@@ -1,6 +1,6 @@
 const container = document.querySelector('#container');
 
-const container = document.createElement('div');
+const content = document.createElement('div');
 content.classList.add('content');
 content.textContent = 'This is the glorious text-content!';
 
