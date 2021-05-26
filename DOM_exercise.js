@@ -40,3 +40,6 @@ blackpink.appendChild(h1);
 blackpink.appendChild(divp);
 
 document.body.appendChild(blackpink);
+
+const btn = document.querySelector('#btn');
+btn.onclick = () => alert("Hello World");
