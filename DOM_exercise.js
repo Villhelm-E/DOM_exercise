@@ -50,3 +50,13 @@ function alertFunction() {
 }
 
 btn.addEventListener('click', alertFunction);
+
+//add clicks to log
+btn.addEventListener('click', function (e) {
+    console.log(e.target);
+});
+
+//turn button background blue on click
+btn.addEventListener('click', function (e) {
+    e.target.style.background = 'blue';
+});
