@@ -44,6 +44,9 @@ document.body.appendChild(blackpink);
 
 //Button events
 const btn = document.querySelector('#btn');
-btn.addEventListener('click', () => {
-    alert("Hello World")
-});
+
+function alertFunction() {
+    alert("YAY! YOU DID IT!");
+}
+
+btn.addEventListener('click', alertFunction);
